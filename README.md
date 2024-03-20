@@ -1,2 +1,2 @@
 # dev-challenges-2024
-Web challenges done from the devChallenges Website
+Challenges done from <a href="https://devchallenges.io/" target="_blank">devChallenges</a>
