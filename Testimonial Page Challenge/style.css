@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+body{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100vw;
+    font-size: 20px;
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    background-color: #FAFAF9;
+}
+img{
+    width: 100%;
+}
+svg{
+    width: 100%;
+}
+#main-star{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border:1px solid transparent;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #F5C044;
+}
+p{
+    width: 550px;
+    line-height: 35px;
+}
+li{
+    font-size: 14px;
+    list-style-image: url(Done_ring_round_fill.svg);
+}
+li span{
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    top: -7px;
+}
+h1{
+    font-size: 36px;
+}
+.second{
+    padding: 100px;
+}
+.second p{
+    font-size: 16px;
+    width: 280px;
+    line-height: 30px;
+    margin-top: -20px;
+}
+.one,.two{
+    background-color: #FFFFFF;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 50px;
+    padding-bottom: 20px;
+    border-radius: 1.5rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.one{
+    margin-left: 200px;
+    width: 350px;
+}
+.two{
+    width: 350px;
+    margin-top: 50px;
+}
+.stars{
+    display: grid;
+    grid-auto-flow: column;
+    margin-top: -8px;
+}
+.icons{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+    justify-content: left;
+    gap: 20px;
+}
+#google,#meta{
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+}
+@media  (max-width:590px) {
+    body{
+        display: grid;
+        grid-auto-flow: row;
+        margin: 0;
+        padding: 0;
+        align-items: left;
+        justify-content: left;
+        padding-top: 20px;
+
+    }
+    .first{
+        width: 80vw;
+        padding-left: 20px;
+    }
+    p {
+        width: 80vw;
+    }
+    .second{
+        width: 70vw;
+        padding-left: 20px;
+        padding: none;
+        align-items: left;
+        justify-content: left;
+        padding-bottom: 20px;
+    }
+    .one,.two{
+        width: 50vw;
+    }
+    .one{
+        margin-left:50px;;
+    }
+    .second p{
+        width: 50vw;
+    }
+    #google,#meta{
+        width: 100%;
+    }
+}
+@media (min-width:450px) and (max-width:1400px) {
+    body{
+        display: grid;
+        grid-auto-flow: row;
+        margin: 0;
+        padding: 0;
+        align-items: left;
+        justify-content: left;
+        padding-top: 20px;
+
+    }
+    .first{
+        width: 80vw;
+        padding-left: 20px;
+    }
+    p {
+        width: 80vw;
+    }
+    .second{
+        width: 70vw;
+        padding-left: 20px;
+        padding: none;
+        align-items: left;
+        justify-content: left;
+        padding-bottom: 20px;
+    }
+    .one,.two{
+        width: 45vw;
+    }
+    .one{
+        margin-left:20vw;
+    }
+   
+ 
+}
