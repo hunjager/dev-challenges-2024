@@ -100,6 +100,8 @@ h1{
         align-items: left;
         justify-content: left;
         padding-top: 20px;
+        height: 100%;
+        width: 100%;
 
     }
     .first{
@@ -139,6 +141,8 @@ h1{
         align-items: left;
         justify-content: left;
         padding-top: 20px;
+        height: 100%;
+        width: 100%;
 
     }
     .first{
